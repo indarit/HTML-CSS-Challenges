@@ -90,7 +90,7 @@ footer {
   border-radius: 50%;
   display: inline-block;
   position: fixed;
-  bottom: 20px;
+  top:14px
   right: 20px;
 
   display: flex;
@@ -129,6 +129,10 @@ footer {
 .tigers {
   background-color: #0b3c49;
   color: #f0e100;
+}
+.Guacamaya{
+  background-color:#1e12c1;
+  color:rgb(247, 251, 251);
 }
 
 .giraffe {
