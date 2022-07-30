@@ -1,6 +1,6 @@
 * {
   font-family: sans-serif;
-  line-height: 300%;
+  line-height: 2;
 }
 
 header {
@@ -65,7 +65,10 @@ button {
   background-color: #372772;
   border: 2px solid black;
   color: #fff;
-  font-size: 25px;
+  font-size: large
+}
+button:hover, :focus{
+  background-color: #BEEE62;
 }
 
 footer {
@@ -177,6 +180,7 @@ footer {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 50px;
   max-width: 400px;
+  border-radius: 10px;
 }
 
 .education-container h3,
@@ -191,8 +195,8 @@ footer {
 .membership {
   text-align: center;
   background-color: #fffffc;
-  margin-left 100%;
-    margin-right:100%
+  margin-left:auto;
+    margin-right:auto;
   max-width: 700px;
 }
 
